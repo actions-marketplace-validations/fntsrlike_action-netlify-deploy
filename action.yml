@@ -1,6 +1,6 @@
 ---
-name: Netlify Deploy
-author: Jo Colina
+name: Netlify Deploy Improved
+author: Jo Colina and Yuehu Lin
 description: Netlify Deploy
 inputs:
   NETLIFY_AUTH_TOKEN:
@@ -64,7 +64,7 @@ runs:
           BUILD_COMMAND: ${{ inputs.build_command }}
           DEPLOY_ALIAS: ${{ inputs.deploy_alias }}
 
-      
+
 branding:
   icon: activity
   color: blue
